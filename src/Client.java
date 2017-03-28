@@ -52,7 +52,7 @@ public class Client  {
         }
         // if it failed not much I can so
         catch(Exception ec) {
-            display("Error connectiong to server:" + ec);
+            display("Error connectiong to server: " + ec);
             return false;
         }
 

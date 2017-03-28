@@ -219,7 +219,7 @@ public class Server {
                 sInput = new ObjectInputStream(socket.getInputStream());
                 //read the user name
                 username = (String) sInput.readObject();
-                display(username + "just connected.");
+                display(username + " just connected.");
             } catch (IOException e) {
                 display("Exception creating new Input/output Streams: " + e);
                 return;
